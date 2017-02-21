@@ -27,7 +27,7 @@ class TCPEchoServerServiceMaker(object):
 
     def makeService(self, options):
         """
-        Construct a TCPServer from a factory defined in echo.py.
+        Construct a TCPServer from a factory defined in echo_module.py.
         """
         return internet.TCPServer(int(options["port"]), EchoServerFactory())
 
