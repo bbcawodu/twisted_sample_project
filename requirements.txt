@@ -1,4 +1,5 @@
 Twisted==16.4.1
+autobahn
 service_identity
 pyopenssl
 pycrypto
