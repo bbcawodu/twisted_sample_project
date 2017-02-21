@@ -1,0 +1,4 @@
+Twisted==16.4.1
+service_identity
+pyopenssl
+pycrypto
