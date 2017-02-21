@@ -1,5 +1,5 @@
 """
--Echo Protocol and Factory for use with twisted applications and plugins
+-Echo Protocols and Factories for use with twisted applications and plugins
 """
 
 from twisted.internet import protocol, reactor

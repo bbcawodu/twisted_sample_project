@@ -1,7 +1,8 @@
-from twisted.internet import reactor
-from twisted.web.resource import Resource, NoResource
-from twisted.web.server import Site
+"""
+- HTTP Calendar Server Resources for use with twisted applications and plugins
+"""
 
+from twisted.web.resource import Resource, NoResource
 from calendar import calendar
 
 class YearPage(Resource):
